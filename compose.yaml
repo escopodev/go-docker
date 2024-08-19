@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+    ports:
+      - 8080:8080
